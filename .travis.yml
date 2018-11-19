@@ -5,4 +5,7 @@ install:
   - nuget restore WebApplication1
 deploy:
   provider: azure_web_apps
+  username: azure_deployment_user
+  password: azure_deployment_password
+  site: azure_deployment_sitename
   skip_cleanup: true
