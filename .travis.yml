@@ -1,4 +1,4 @@
-language: c#
+language: csharp
 solution: WebApplication1/WebApplication1.sln
 install:
   - sudo apt-get install -y gtk-sharp2
